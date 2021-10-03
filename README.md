@@ -26,8 +26,8 @@ This project is a Junior Software Developer Challenge that is part of an intervi
 
 # Considerations 
 
-Considerations are the unique scenerios or conditions that make the general algorithm not effective or in need of adaptations. 
-Thus, they are listed below and referred to later in the code documentation for each function it directly relates to. 
+Considerations are the unique scenerios or conditions that make the general algorithm not effective or in need of specific adaptations. 
+Thus, these considerations are listed below and referred to later on in the code documentation for each function it directly relates to. 
 
 1. Repititive number 9's (9, 99, 999, 9999), their nearest palindrome can be found by simply adding 2 to the number to get (101, 1001, 10001). 
 
@@ -40,6 +40,14 @@ Thus, they are listed below and referred to later in the code documentation for 
 5. There will be different approaches for odd and even lengthed digits. 
 
 6. Similar to part 1. except the converse; from 1001 to 999, 101 to 99, and so on. 
+
+# Testing 
+
+Big-O time efficiency 
+
+1. Runtime
+2. Time Complexity
+3. Space Complexity
 
 # Contributors 
 
