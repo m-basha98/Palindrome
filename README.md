@@ -41,13 +41,15 @@ Thus, these considerations are listed below and referred to later on in the code
 
 # Testing 
 
-Although all functions were tested individually, basic testing results for the entire class are listed below. 
+All functions were tested individually; the crash_testing function confirmed the algorithms ability to consistently return results without failure 
+within our assumed range. 
 
-**Time Complexity**
+**Time Complexity of Algorthim**
 - Runtime: ~0.009ms
 - Constant time
 
-**Space Complexity** 
+**Space Complexity of Algorithm** 
+- O(n) 
 
 # Contributors 
 
