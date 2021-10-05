@@ -35,7 +35,7 @@ Thus, these considerations are listed below and referred to later on in the code
 
 4. When the inputted integer is between (0,10), the integer less 1 is the nearest palindrome. 
 
-5. There will be different approaches to find the palindrome for odd and even lengthed digits. 
+5. Odd and even lengthed digits require different approaches. 
 
 6. Similar to consideration 1. except the converse; from 1001 to 999, 101 to 99, and so on. 
 
@@ -43,11 +43,12 @@ Thus, these considerations are listed below and referred to later on in the code
 
 Although all functions were tested individually, basic testing results for the entire class are listed below. 
 
-1. Runtime: Average runtime for max input of 10^6 integers: 9.5 seconds
+**Runtime**
+Average runtime for max input of 10^6 integers: 9.5 seconds
 
-2. Time Complexity:
+**Time Complexity**
  
-3. Space Complexity: 
+**Space Complexity** 
 
 # Contributors 
 
