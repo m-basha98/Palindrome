@@ -43,8 +43,10 @@ Thus, these considerations are listed below and referred to later on in the code
 
 Although all functions were tested individually, basic testing results for the entire class are listed below. 
 
-**Runtime**
-Average runtime for max input of 10^6 integers: 9.5 seconds
+**Time Complexity**
+#
+Runtime: ~0.009ms, constant time, O(0.009)
+
 
 **Time Complexity**
  
