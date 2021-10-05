@@ -29,17 +29,17 @@ This project is a Junior Software Developer Challenge that is part of an intervi
 Considerations are the unique scenerios or conditions that make the general algorithm not effective or in need of specific adaptations. 
 Thus, these considerations are listed below and referred to later on in the code documentation for each function it directly relates to. 
 
-1. Repititive number 9's (9, 99, 999, 9999), their nearest palindrome can be found by simply adding 2 to the number to get (101, 1001, 10001). 
+1. Repetitive number 9's (9, 99, 999, 9999, ...); their nearest palindrome can be found by simply adding 2 to the integer (101, 1001, 10001, ...). 
 
-2. Similarly, numbers like (1, 10, 100, 1000), their nearest palindrome can be found by subtracting 1 to get (9, 99, 999). 
+2. Similarly, numbers like (1, 10, 100, 1000, ...); their nearest palindrome can be found by subtracting 1 to get (9, 99, 999, ...). 
 
-3. Numbers that are already a palindrome still need the nearest smaller palindrome number determined for it.
+3. Integers that are already a palindrome or are equidistant from 2 possible polindrome solutions need the nearest and smallest palindrome integer returned.
 
-4. Approach for when n is 0 < n < 10, n less 1 is the nearest palindrome. 
+4. When the inputted integer is between (0,10), the integer less 1 is the nearest palindrome. 
 
-5. There will be different approaches for odd and even lengthed digits. 
+5. There will be different approaches to find the palindrome for odd and even lengthed digits. 
 
-6. Similar to part 1. except the converse; from 1001 to 999, 101 to 99, and so on. 
+6. Similar to consideration 1. except the converse; from 1001 to 999, 101 to 99, and so on. 
 
 # Testing 
 
