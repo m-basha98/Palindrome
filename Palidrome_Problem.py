@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Palindrome Problem:
+# # PALINDROME PROBLEM:
 # 
 # Refer to README.md for problem details, assumptions, considerations, and testing results. 
 # 
-
-# In[10]:
 
 class Palindrome_Problem(): 
     
@@ -51,10 +49,6 @@ class Palindrome_Problem():
        p3 = self.check_10(str(int(n)-1))
        return int(p3)
     
-    
-    # In[11]:
-    
-    
     def min_palindrome(self,p1, p2, p3, n):
         
         '''
@@ -78,10 +72,6 @@ class Palindrome_Problem():
             return p3                    # p3<=p2<=p1 
         else:
             return p2                    # p2<=p1<=p3
-    
-    
-    # In[12]:
-    
     
     def possible_palindromes(self,n):
     
@@ -116,11 +106,7 @@ class Palindrome_Problem():
             p3 = FH3 + (FH3[::-1])[1:len(FH3)]
             
             return [p1, p2, p3]
-    
-    
-    # In[13]:
-    
-    
+        
     def solution(self,n):
         
         '''
@@ -168,8 +154,6 @@ def main():
           p.solution(palindrome) + ".")
     
 main()
-
-# In[213]:
     
 #TESTING speed, efficiency, and overall performance 
     
@@ -196,35 +180,35 @@ def crash_testing():
         
     return palindromes
 
+
 def runtime():
     
     '''
     This function determines the average runtime of the algorithm by calling
-    and timing testing_results. This function 
+    and timing crash_testing. This function is used to determine time complexity. 
     :return: (int) Returns the average runtime of the algorithm. 
     '''
-    
-    start = time.time()
-    for _ in range(10000):        # time to run 1,000,000 independent integers 
+    n = 100                   # change n based on number of entries you want to time 
+    total_time = 0.0          # since crash_testing determines the palindrome solutions for 
+    for _ in range(n):        # 100 entries, we test n*100 entries in this function
+        start = time.time()
         crash_testing()
-    end = time.time()
-    
-    avg_time_per_input = (end-start)
-    
-    result_sentence1 = "Runtime for 1,000,000 independent integers: "
-    result_sentence2 = "Runtime for each independent integer: "
-    
-    print(result_sentence1 + str(avg_time_per_input) + " seconds. " + "\n" + 
-          result_sentence2 + str(((avg_time_per_input)/1000000)) + " seconds.")      
+        end = time.time()
+        total_time = total_time+(end-start)
+ 
+    #print(total_time)
+    print("Algorithm runtime average for each entry is %10.7fms for n=%d"%((total_time/n)*10,n*100))
 
-crash_testing()
+
+# Independent entries and results per entry
+# 1000 = 0.0000780ms
+# 10,000 = 0.00966ms  
+# 100,000 = 0.00985ms 
+# 1,000,000 = 0.0091009ms  
+# 10,000,000 = 0.0088922ms 
+# 100,000,000 = 0.009139ms
+
+# Time Complexity (average run time per complete entry) is 0.009ms, constant time 
+
+#crash_testing()
 runtime() 
-
-
-
-# In[4]:
-
-
-# In[ ]:
-
-
