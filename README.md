@@ -46,7 +46,6 @@ Although all functions were tested individually, basic testing results for the e
 **Time Complexity**
 - Runtime: ~0.009ms
 - Constant time
-- O(0.009)
 
 **Space Complexity** 
 
