@@ -16,13 +16,11 @@ This project is a Junior Software Developer Challenge that is part of an intervi
 
 # Assumptions 
 
-1. For simplicity and efficiency we assume digits are under 10^10. 
+1. For simplicity and efficiency we assume digits are between 1 and 10^6, hence, no negative integers. 
 
-2. There are only digits in the inputed value, that is, their are no letters, decimals, symbols, etc,.
+2. There are only digits in the inputed value, that is, their are no letters, decimals, symbols, spaces, etc,.
 
-3. No inputs start off with a 0, such as '01234', as it affects incrementation based on mathematic principles. 
-
-4. We assume no negative numbers with the lowest digit being 1 and the largest being 10^10. 
+3. No inputs start with a 0, such as '01234'. 
 
 # Considerations 
 
@@ -43,11 +41,13 @@ Thus, these considerations are listed below and referred to later on in the code
 
 # Testing 
 
-Big-O time efficiency 
+Although all functions were tested individually, basic testing results for the entire class are listed below. 
 
-1. Runtime
-2. Time Complexity
-3. Space Complexity
+1. Runtime: Average runtime for max input of 10^6 integers: 9.5 seconds
+
+2. Time Complexity:
+ 
+3. Space Complexity: 
 
 # Contributors 
 
