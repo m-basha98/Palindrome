@@ -188,7 +188,7 @@ def runtime():
     and timing crash_testing. This function is used to determine time complexity. 
     :return: (int) Returns the average runtime of the algorithm. 
     '''
-    n = 100                   # change n based on number of entries you want to time 
+    n = 1000                  # change n based on number of entries you want to time 
     total_time = 0.0          # since crash_testing determines the palindrome solutions for 
     for _ in range(n):        # 100 entries, we test n*100 entries in this function
         start = time.time()
