@@ -174,7 +174,7 @@ def crash_testing():
     palindromes = []
     for _ in range(100):
         
-        random_int = str(random.randint(1,10**10))
+        random_int = str(random.randint(1,10**6))
         palindrome = p.solution(random_int)
         palindromes.append(palindrome)
         
