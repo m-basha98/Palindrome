@@ -165,7 +165,7 @@ p = Palindrome_Problem()
 def crash_testing():
 
     '''
-    This function selects 100 random integers from the range 0<n<10^10 and returns the 
+    This function selects 100 random integers from the range 0<n<10^6 and returns the 
     corresponding palindrome solution. This function is intended to be run repeatedly to 
     ensure their are no integers in our range for which the algorithm will crash. 
     :return: (list) Contains only palindromes for the random integers. 
