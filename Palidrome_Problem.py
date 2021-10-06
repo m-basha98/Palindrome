@@ -148,7 +148,7 @@ def main():
     Runs the full program using the preassigned user defined functions.
     '''
     
-    prompt = "Please enter a number between 1 and 10^10..." + "\n"
+    prompt = "Please enter a number between 1 and 10^6..." + "\n"
     palindrome = input(prompt)
     print("The nearest palindrome for " + palindrome + " is " + 
           p.solution(palindrome) + ".")
